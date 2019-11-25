@@ -21,7 +21,7 @@
                 }									
 			],
           "outArguments": [],
-          "url": "https://income-custom-activity-demo.herokuapp.com/journeybuilder/execute",
+          "url": "https://income-custom-activity.herokuapp.com/journeybuilder/execute",
            "verb": "POST",
             "body": "",
             "header": "",
@@ -33,22 +33,22 @@
     "configurationArguments": {
       "applicationExtensionKey": "1ba57f23-2ccb-458e-8d91-aed60a6c3548",
       "save": {
-        "url": "https://income-custom-activity-demo.herokuapp.com/journeybuilder/save",
+        "url": "https://income-custom-activity.herokuapp.com/journeybuilder/save",
           "verb": "POST",
         "useJwt": true
        },
        "publish": {
-        "url": "https://income-custom-activity-demo.herokuapp.com/journeybuilder/publish",
+        "url": "https://income-custom-activity.herokuapp.com/journeybuilder/publish",
            "verb": "POST",
         "useJwt": true
        },
       "stop": {
-        "url": "https://income-custom-activity-demo.herokuapp.com/stop",
+        "url": "https://income-custom-activity.herokuapp.com/stop",
            "verb": "POST",
         "useJwt": true
       },
       "validate": {
-        "url": "https://income-custom-activity-demo.herokuapp.com/validate",
+        "url": "https://income-custom-activity.herokuapp.com/validate",
         "verb": "POST",
         "useJwt": true
       }
